@@ -6,7 +6,7 @@
 %define	pdir	X500
 %define	pnam	DN
 Summary:	X500::DN - handle X.500 DNs (Distinguished Names), parse and format them
-#Summary(pl):	
+Summary(pl):	X500::DN - obs³uga DN (Distinguished Names) X.500, analiza i formatowanie ich
 Name:		perl-X500-DN
 Version:	0.28
 Release:	1
@@ -21,9 +21,15 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-This module handles X.500 DNs (Distinguished Names).
-Currently, it parses DN strings formatted according to RFC 2253 syntax into an
+This module handles X.500 DNs (Distinguished Names). Currently, it
+parses DN strings formatted according to RFC 2253 syntax into an
 internal format and produces RFC 2253 formatted string from it.
+
+%description -l pl
+Ten modu³ obs³uguje DN (Distinguished Names) X.500. Aktualnie
+analizuje ³añcuchy DN sformatowane zgodnie ze sk³adni± RFC 2253 na
+wewnêtrzny format i tworzy z niego ³añcuchy sformatowane zgodnie z
+RFC 2253.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
