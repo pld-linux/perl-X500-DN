@@ -10,14 +10,13 @@ Summary:	X500::DN - handle X.500 DNs (Distinguished Names), parse and format the
 Name:		perl-X500-DN
 Version:	0.28
 Release:	1
+# same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/X500/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a600373d73ab59eb6e28d26f14cb8df1
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-%if %{with tests}
-%endif
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
