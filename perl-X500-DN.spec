@@ -6,7 +6,7 @@
 %define	pdir	X500
 %define	pnam	DN
 Summary:	X500::DN - handle X.500 DNs (Distinguished Names), parse and format them
-Summary(pl.UTF-8):   X500::DN - obsługa DN (Distinguished Names) X.500, analiza i formatowanie ich
+Summary(pl.UTF-8):	X500::DN - obsługa DN (Distinguished Names) X.500, analiza i formatowanie ich
 Name:		perl-X500-DN
 Version:	0.28
 Release:	1
