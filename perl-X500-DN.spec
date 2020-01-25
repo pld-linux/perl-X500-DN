@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define	pdir	X500
 %define	pnam	DN
 Summary:	X500::DN - handle X.500 DNs (Distinguished Names), parse and format them
